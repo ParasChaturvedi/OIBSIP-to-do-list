@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Elias Abdurrahman" />
+    <meta name="description" content="JavaScript Simple To-Do List" />
+    <meta
+      name="keywords"
+      content="HTML,CSS,JavaScript,To-Do List,JavaScript Simple To-Do List"
+    />
+    <title>JavaScript Simple To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="checklist.png" />
+  </head>
+
+  <body>
+    <div class="main-section">
+      <div class="add-section">
+        <input
+          type="text"
+          id="ToDotitle"
+          placeholder="what do you need to do?"
+        />
+        <button onclick="addToDo();">Add &nbsp;<span>&#43;</span></button>
+      </div>
+      <div class="show-todo-section" id="showToDo"></div>
+      <footer>
+        <h2>By Paras Chaturvedi</h2>
+        <div class="footer-links">
+          <a href="https://paraschaturvedi.github.io/portfolio-paras-main.github.io/">Portfolio</a> |
+          <a href="mailto:">chaturvediparas14@gmail.com</a>
+        </div>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+    <script>
+      showToDo();
+    </script>
+  </body>
+</html>
